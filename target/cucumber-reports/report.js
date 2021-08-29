@@ -35,16 +35,25 @@ formatter.step({
   "name": "user is able to see the homepage",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Simple.user_is_login_page()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 239677000,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "Simple.user_enters_username_and_password()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 75900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Simple.user_is_able_to_see_the_homepage()"
+});
+formatter.result({
+  "duration": 74700,
+  "status": "passed"
 });
 });

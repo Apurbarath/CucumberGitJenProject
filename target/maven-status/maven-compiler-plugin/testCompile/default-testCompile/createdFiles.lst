@@ -1,0 +1,4 @@
+stepDefinations\Simple.class
+stepDefinations\SignInStepDefination.class
+runner\MyRunner.class
+stepDefinations\RegistrationStepDefination.class

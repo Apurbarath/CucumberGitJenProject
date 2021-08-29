@@ -12,29 +12,38 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 239677000,
+              "status": "passed"
             },
             "line": 6,
             "name": "user is login page",
-            "match": {},
+            "match": {
+              "location": "Simple.user_is_login_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 75900,
+              "status": "passed"
             },
             "line": 7,
             "name": "user enters username and password",
-            "match": {},
+            "match": {
+              "location": "Simple.user_enters_username_and_password()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 74700,
+              "status": "passed"
             },
             "line": 8,
             "name": "user is able to see the homepage",
-            "match": {},
+            "match": {
+              "location": "Simple.user_is_able_to_see_the_homepage()"
+            },
             "keyword": "Then "
           }
         ],
