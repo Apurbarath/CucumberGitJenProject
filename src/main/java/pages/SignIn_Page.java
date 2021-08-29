@@ -17,7 +17,6 @@ public class SignIn_Page extends InitBase{
 	public static final String contactLink = "CONTACT";
 	
 	
-	
 	@FindBy(name = userName)
 	public WebElement element_username;
 	

@@ -1,8 +1,8 @@
-Feature: SignIn features
-user wants to check whether he is able to sign in or not
+Feature: Sample feature
+This is just sample feature
 
-@mytest
-Scenario: user should validate whether four important links are present or not
-	Given user is on correct website
-	When user clicks on login button
-	Then user should see the home page
+@simple
+Scenario: User validating simple feature file
+	Given user is login page
+	When user enters username and password 
+	Then user is able to see the homepage
